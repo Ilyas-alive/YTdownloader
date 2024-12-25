@@ -17,8 +17,6 @@ Ensure you have Python 3.6 or higher installed on your system. You can download 
 
 `pip` is Python's package installer. It should be included with Python 3.6+ by default. You can check if `pip` is installed by running the following command in your terminal or command prompt:
 
-```bash
-pip --version
 If you don’t have pip installed, follow the official guide to install it:
 
 How to install pip
