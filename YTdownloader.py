@@ -5,13 +5,11 @@ def download_video(link, mode):
     try:
         script_dir = os.path.dirname(os.path.abspath(__file__))
         ffmpeg_path = os.path.join(script_dir, "ffmpeg", "bin", "ffmpeg.exe")
-        cookies_file = r"C:\path\to\your\cookies.txt"
         common_opts = {
             'ffmpeg_location': ffmpeg_path,
             'no_warnings': True,
             'concurrent_fragments': 5,
             'limit_rate': '5M',
-            'cookiefile': cookies_file,
         }
 
         if "playlist?list=" in link:
